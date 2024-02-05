@@ -7,4 +7,4 @@ Async UART requries that the Kconfig "CONFIG_UART_x_ASYNC" be set. If this is no
 
 To run the example, build for your target board and bridge the uart1 TX + RX pins with a jumper wire.
 
-This is a very simple example and does not properly leverage the useful (i.e. asynchronous) features of the async UART API. Please refer to this video from CircuitDojo for more information https://www.youtube.com/watch?v=ikRS9XXZGGA and to the Zephyr docs https://www.youtube.com/watch?v=ikRS9XXZGGA 
+This is a very simple example and does not properly leverage the useful (i.e. asynchronous) features of the async UART API. Please refer to this video from CircuitDojo for more information https://www.youtube.com/watch?v=ikRS9XXZGGA and to the Zephyr docs https://docs.zephyrproject.org/latest/doxygen/html/group__uart__async.html
